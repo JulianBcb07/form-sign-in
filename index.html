@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="max-container">
+        <div class="container">
+            <img class="bg-img" src="img/background.jpg" alt="img background">
+            <div class="logo">
+                <img class="icon-odin" src="img/odin-lined.png" alt="icon">
+                <p class="odin">Odin</p>
+            </div>
+            <div class="flex-col">
+                <div class="instructions">
+                    <p>This is not a real online service! You know you need something <br>like this in your life to help
+                        you
+                        realize
+                        your deepest dreams. <br>
+                        Sign up now to get started.</p>
+                    <p>You know you want to</p>
+                </div>
+                <div class="form-section">
+                    <form action="">
+                        <div class="content">
+                            <h2>Let's do this!</h2>
+                            <div class="flex-items">
+                                <div class="block-items">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" name="first-name" placeholder="your name" required>
+                                </div>
+                                <div class="block-items">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" name="last-name" placeholder="your last name" required>
+                                </div>
+                            </div>
+
+                            <div class="flex-items">
+                                <div class="block-items">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" placeholder="email@email.com" required>
+                                </div>
+                                <div class="block-items">
+                                    <label for="phone-number">Phone Number</label>
+                                    <input type="text" id="phone" name="phone-number" placeholder="ds"
+                                        pattern="[0-9]{10}" title="Please enter a valid phone number (e.g., 1234567890)"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="flex-items">
+                                <div class="block-items">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" class="password" required>
+                                </div>
+                                <div class="block-items">
+                                    <label for="confirm-password">Confirm Password</label>
+                                    <input type="password" name="confirm-password" class="password" required>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-submit" type="submit">Create Account</button>
+                        <p class="account">Already have an account? <span>Log in</span></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://c.webfontfree.com/c.js?f=Norse-Bold" type="text/javascript"></script>
+</body>
+
+</html>

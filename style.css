@@ -1,0 +1,147 @@
+body,
+:root,
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin: 0 0 1rem;
+}
+
+label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 0.5rem 4rem 0.5rem 10px;
+    border-radius: 0.4rem;
+    border: solid 1px rgb(209, 208, 208);
+    outline: none;
+}
+
+input:focus {
+    border: solid 1px rgb(64, 162, 241);
+}
+
+input.password:invalid {
+    border: solid 1px red;
+}
+
+.max-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    margin: 10rem;
+    border-radius: 1rem;
+
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-img {
+    height: auto;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.instructions {
+    margin-left: 2rem;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 1rem;
+}
+
+.icon-odin {
+    width: auto;
+    height: 80px;
+}
+
+.logo {
+    background-color: rgba(0, 0, 10, 0.418);
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 350px;
+    height: 110px;
+    margin: 95px auto;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.odin {
+    font-family: 'Norse-Bold', cursive;
+}
+
+.block-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content {
+    background-color: white;
+    padding: 1rem 30rem 1rem 2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 10px 0 20px -2px #aaaaaa;
+
+}
+
+.btn-submit {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.7rem 3rem;
+    border-radius: 0.5rem;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.btn-submit:hover {
+    background-color: #718f56;
+    box-shadow: 0 1px 6px rgb(94, 161, 115);
+}
+
+.account {
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+span {
+    color: #596D48;
+    font-weight: 700;
+}
+
+span:hover {
+    color: #718f56;
+}
